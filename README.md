@@ -1,1 +1,1 @@
-ŠJ”­Œ¾Œê‚ÍJava‚Å‚·B
+I usually use Java.
