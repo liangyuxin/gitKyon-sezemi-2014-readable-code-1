@@ -20,6 +20,8 @@ Hence I added the meaning of each code which has specific numbers.
 4. 
 To add functions, I did not modify the while loop which has original algorithm; in order to keep expansibility.
 
+5. 
+For README format, I followed the original format.
  
 
  
