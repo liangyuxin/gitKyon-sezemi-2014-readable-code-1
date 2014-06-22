@@ -1,7 +1,13 @@
 class Readable{
 
     public static void main(String[] args){
-        System.out.println("ƒIƒ€ƒ‰ƒCƒX");
+        String fileName = args[0];
+        try{
+            BufferedReader bf = new BufferedReader(new FileReader("fileName"));
+            System.out.println(bf.readLine());
+        }catch(IOException e){
+            System.err.println("READ ERROR: " + fileName);
+        }
     }
 
 }
