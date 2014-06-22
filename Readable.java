@@ -6,8 +6,11 @@ class Readable{
     public static void main(String[] args){
         String fileName = args[0];
         int designatedId = -1;
-        String user = "no usr"; //to avoid NULL_POINT_ECEPTIONEPTION
+        
+		String user = "no usr"; //to avoid NULL_POINT_ECEPTIONEPTION
+		//Get ID from user
         if (args.length==2 || args.length==3) designatedId = Integer.parseInt(args[1]);           
+		//Get user name from user
 		if (args.length >= 3) {
            	user =  args[2];
            	System.out.println("user name: " + user);
